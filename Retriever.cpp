@@ -19,6 +19,7 @@ int main()
         cout << file << endl;
     }
 
+    system("rm -r data");
     fin.close();
     return 0;
 }
