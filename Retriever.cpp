@@ -7,6 +7,7 @@ int main()
 {
     string file;
     ifstream fin;
+    system("mkdir data");
     system("ls -R > data/raw");
 
     fin.open("data/raw");
